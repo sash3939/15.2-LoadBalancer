@@ -42,6 +42,8 @@ https://egorkin-netology-s3.website.yandexcloud.net/sea2
  - Разместить в стартовой веб-странице шаблонной ВМ ссылку на картинку из бакета.
  - Настроить проверку состояния ВМ.
 
+
+```
 user-data  = <<EOF
 #!/bin/bash
 apt install httpd -y
@@ -50,7 +52,7 @@ echo '<html><head><title>Cat</title></head> <body><h1>Hello!</h1><img src="http:
 echo '<html><head><title>Cat1</title></head> <body><h1>Hello!</h1><img src="http://${yandex_storage_bucket.s3bucket2.bucket_domain_name}/sea2.jpg"/></body></html>' > index.ht>
 service httpd start
 EOF
-
+```
 3. Подключить группу к сетевому балансировщику:
 
  - Создать сетевой балансировщик.
