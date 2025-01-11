@@ -22,6 +22,7 @@
  <img width="935" alt="Bucket" src="https://github.com/user-attachments/assets/408b0bfc-6461-4833-a05c-1a9a648e1f6b" />
  
  - Сделать файл доступным из интернета.
+   
 https://egorkin-netology-s3.website.yandexcloud.net/sea
 https://egorkin-netology-s3.website.yandexcloud.net/sea2
 
